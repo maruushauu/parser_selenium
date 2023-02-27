@@ -15,10 +15,10 @@ from func_res import *
 
 
 config = ConfigParser()
-config.read('/home/op/robots_config/config.ini')
+config.read('')
 
 page = 1
-host = 'https://mosedo.mos.ru/'
+host = ''
 driver = None
 dnsid = None
 login = None
