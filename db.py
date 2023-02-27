@@ -6,11 +6,11 @@ import psycopg2
 
 class DBase():
     def __init__(self):
-        self.url = '192.168.163.195'
-        self.port = 5432
-        self.db = 'parser_mka'
-        self.us = 'viewer'
-        self.passw = 'P@ssw0rd'
+        self.url = ''
+        self.port = ''
+        self.db = ''
+        self.us = ''
+        self.passw = ''
         self.conn = False
         self.cur = False
 
